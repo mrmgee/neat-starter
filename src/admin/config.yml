@@ -29,30 +29,7 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["Tags", "created", "from", "config.yml"]
-  - label: "Projects"
-    name: "projects"
-    folder: "src/projects"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Layout", name: "layout", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "URL Path", name: "urlPath", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Tags", "created", "from", "config.yml"]
-
-        
+        options: ["Tags", "created", "from", "config.yml"]        
   - label: "Settings"
     name: "settings"
     editor:
